@@ -1,0 +1,54 @@
+*{
+	padding:0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Space Mono', monospace;
+}
+
+.container{
+	margin:50px;
+}
+
+form{
+	margin-top:50px;
+}
+
+input{
+	width:400px;
+	padding:5px;
+	border:3px solid black;
+	display:block;
+	margin-top:20px;
+}
+
+.submit-btn,
+.new_pwd,
+.copy_pwd,
+.reset-btn{
+	margin-top:30px;
+	width:120px;
+	padding:5px;
+	color:white;
+	background-color: black;
+	cursor:pointer;
+}
+
+.pwd{
+	margin-top: 70px;
+	display:none;
+}
+
+.pwd-txt{
+	font-family: 'Space Mono', monospace;
+	font-size:30px;
+}
+
+.new_pwd{
+	width:200px;
+}
+
+.pwd-txt span{
+	color:red;
+}
